@@ -127,7 +127,7 @@ li a {
 }
 header{
     margin-left: 33%;
-    width: 30%;
+    width: 29.6%;
     padding: 2px;
     border-color: black;
     border-style: solid;
@@ -172,7 +172,9 @@ header{
         border-radius: 50%;
         height: 60px;       
  } 
-
+.side-prof{
+    padding-top: 20px;
+}
  .side-bar{
     margin-left: 0.4vw;
     padding-top: 4px;
@@ -180,5 +182,175 @@ header{
     justify-content: space-between;
     margin-right: 4px;
     background-color: aqua;
-    width: 16vw;
+    width: 17vw;
    }
+
+.side-bar p{
+    padding-top: 6px;
+}
+
+.suggestions{
+    width: 21vw;
+    background-color: blue;
+    margin-top: 1vh;
+    /* display: inline; */
+    margin-left: 1060px;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    /* background-position-x: absolute 230px; */
+}
+.second-section{
+    margin-left: 33%;
+        width: 30%;
+        background-color:white;
+        /* padding: 2px; */
+        border-color: grey;
+        border-style: solid;
+        border-radius: 16px;
+        margin-bottom: 10px;
+}
+
+.timeline{
+    display: flex;
+    justify-content: space-between;
+    padding:3px;
+    padding-right: 4px;
+    margin-bottom: 0.6vh;
+
+}
+
+.timeline2{
+    display: flex;
+        justify-content: space-between;
+        padding: 3px;
+        padding-right: 4px;
+        margin-bottom: 0.6vh;
+}
+
+.timeline-icon{
+    width:20px;
+    height:20px;
+    padding-top: 15px;
+    padding-left: 10vw;
+    padding-right: 4px;
+}
+
+.timeline-prof{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border-color: red;
+    border-style: solid;
+   
+}
+.timeline-intro{
+    display: flex;
+
+
+}
+.timeline-intro p{
+    padding-top: 15px;
+    margin-left: 0.5vw;
+}
+
+.timeline-image{
+    width:475px;
+    height: 600px;
+}
+
+.comments-icons{
+    height:2vh;
+    width: 26%;
+  
+}
+
+.comments{
+    padding: 10px;
+}
+
+.icons{
+    width: 24px;
+    height: 24px;
+    padding-left: 11px;
+}
+.save{
+    float: right;
+}
+
+
+.likes{
+    padding: 10px;
+    margin: 0.4vh;
+    padding-left: 10px;
+    display: flex;
+    margin-bottom: 0.7vh;
+}
+.liked{
+    margin-right: 0.4vw;
+    width:18px;
+    border-radius: 50%;
+}
+
+.all-comments {
+    padding-left: 10px;
+    margin-top: 0.5vh;
+    color: grey;
+}
+
+.ind-comments{
+    line-height: 20px;
+}
+.caption{
+    padding-left: 10px;
+}
+
+.ind-reaction{
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.ind-react{
+    width: 3%;
+    height: 3%;
+
+}
+
+.time{
+    padding-left: 10px;
+    color: grey;
+    font-size: 10px;
+}
+
+.add-comment{
+    border-top: 0.1px;
+    border-color: grey;
+    border-top-style: solid;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+    padding-top: 5px;
+}
+input{
+    width:380px;
+    height: 30px;
+    border-color: inherit;
+    background-color: inherit;
+    border-style: none;
+}
+.smiley{
+    width:18px;
+    height: 18px;
+    margin-right: 5px;
+    padding-top: 7px;
+}
+
+.post{
+    padding-top: 7px;
+    margin-left: 5px;
+    color: blue;
+    font-weight: bolder;
+}
