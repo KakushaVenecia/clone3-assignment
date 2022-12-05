@@ -126,7 +126,7 @@ li a {
     height: 22px;
 }
 header{
-    margin-left: 35%;
+    margin-left: 33%;
     width: 30%;
     padding: 2px;
     border-color: black;
@@ -137,14 +137,14 @@ header{
     align-content: center;
 }
 
-.container{
+.first-section{
     padding-top: 30px;
+    display: flex;
 }
 .stories{
     text-align: center;
 }
 .story{
-   
  width: 60px;
  height: 60px;
  text-align: center;
@@ -153,3 +153,32 @@ header{
  border-radius: 50%;
 
 }
+
+header{
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
+}
+
+.main{
+   padding-left: 3vw;
+   display: flex;
+   padding-top: 7px;
+   
+}
+
+.side{
+        border-color: red;
+        border-style: solid;
+        border-radius: 50%;
+        height: 60px;       
+ } 
+
+ .side-bar{
+    margin-left: 0.4vw;
+    padding-top: 4px;
+    display:flex;
+    justify-content: space-between;
+    margin-right: 4px;
+    background-color: aqua;
+    width: 16vw;
+   }
